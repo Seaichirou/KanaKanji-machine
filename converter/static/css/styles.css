@@ -1,0 +1,97 @@
+/* 全体のスタイルをリセットする */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.site-logo {
+    width: 100%;
+    max-width: 1430px; /* container と一致させる */
+    display: block;
+    background: green;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto; /* 中央揃え */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1430px;
+    margin: 0 auto; /* 中央揃え */
+}
+
+.left-side {
+    padding: 5px;
+}
+
+.left-side {
+    width: 615px;
+    background: rgba(255,240,255,0.5);
+}
+
+textarea {
+    width: 100%;
+    height: 190px;
+    resize: none;
+}
+
+#image-container img {
+    max-width: 100%;
+}
+
+.result-container {
+    white-space: pre-wrap; /* 折り返しを有効にする */
+    word-wrap: break-word; /* 長い単語やURLの場合でも折り返しを許可 */
+    overflow-wrap: break-word; /* 古いブラウザのためのバージョン */
+    background: silver;
+    margin-bottom: 20px;
+}
+
+.form-footer {
+    display: flex;
+    align-items: center; /* 垂直方向の中央揃え */
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.convert-button {
+    font-size: 40px;
+    color: blue;
+    background: yellow;
+}
+
+.char-count {
+    font-size: 30px;
+    line-height: 40px; /* ボタンの高さに合わせる */
+    margin-left: auto; /* 右端に配置 */
+}
+
+.copy-button {
+    text-align: center;
+    background: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.form-label {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: blue; 
+}
+
+.form-text-label {
+    font-weight: bolder;
+    margin-bottom: 0px;
+    color: brown; /* 文字の色を茶色に設定 */
+}

@@ -1,0 +1,39 @@
+{% load static %}
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+    <title>仮名漢字マシン</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <script src="{% static 'scripts/scripts.js' %}"></script>
+</head>
+<body>
+    <header>
+        <div class="site-logo">仮名漢字マシン</div>
+    </header>
+    <div class="container">
+        <div class="left-side">
+            <form method="POST">
+                {% csrf_token %}
+                <p>
+                    <p class="form-label">※変換方法:「漢字 + 半角カタカナ」(漢字ｶﾝｼﾞ)<br>
+                                          ※半角カタカナの「･」で文字送り(漢字ｶﾝ･ｼﾞ･) </p>
+                    <span class="form-text-label">{{ form.text.label_tag }}</span><br>
+                    {{ form.text }}
+                </p>
+                <div class="form-footer">
+                    <button type="submit" class="convert-button">変換</button>
+                    <div class="char-count" id="char-count"></div>
+                </div>
+            </form>
+            {% if converted_text %}
+                <div class="text-copy copy-button" id="text_copy_button">テキストをコピーする</div>            
+                <div class="result-container" id="converted_text_container">{{ converted_text }}</div>
+                <div class="image-copy copy-button" id="image_copy_button">画像をコピーする</div>
+                <div id="image-container">
+                    <img id="generated_image" src="{{ image_path }}" alt="生成された画像">
+                </div>
+            {% endif %}
+</body>
+</html>
