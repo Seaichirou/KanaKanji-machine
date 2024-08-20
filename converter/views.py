@@ -275,7 +275,7 @@ def kana_kanji_converter(request):
 
             converted_text = convert_to_kana_kanji(text)
 
-            default_font_path = os.path.join(static_dir, 'fonts','NotoSansJP-Regular.otf')
+            default_font_path = os.path.join(static_dir, 'fonts','KleeOne-SemiBold.ttf')
             output_image_path = os.path.join(settings.MEDIA_ROOT,'output.png')
 
             image_path = generate_kana_kanji_image(text_for_image, default_font_path, output_image_path, background_image_path)

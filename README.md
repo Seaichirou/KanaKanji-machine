@@ -7,9 +7,9 @@ https://kanakanji-machine-3cd804a8be3e.herokuapp.com/
 「jia-ming-han-zi-nojia-ming-mini-saizu.ttf」と言うフォントを使っていますが、規約により二次配布できません。下記URLのサイトからダウンロードして「converter/static/fonts」フォルダの中に入れて下さい。
 https://fontstruct.com/fontstructions/show/2442607/jia-ming-han-zi-nojia-ming-mini-saizu
 
-また、「NotoSansJP-Regular.otf」というフォントも下記URLからダウンロードし、converter/static/fonts」フォルダの中に入れて下さい。
-https://fonts.google.com/specimen/Noto+Sans+JP
-「NotoSansJP-Regular.otf」のライセンスはSIL Open Font License 1.1に基づいており、商用利用を含む幅広い用途で使用可能です。
+また、「KleeOne-SemiBold.ttf」というフォントも下記URLからダウンロードし、converter/static/fonts」フォルダの中に入れて下さい。
+https://fonts.google.com/specimen/Klee+One?subset=japanese&script=Hira
+「KleeOne-SemiBold.ttf」のライセンスはSIL Open Font License 1.1に基づいており、商用利用を含む幅広い用途で使用可能です。
 
 ## このリポジトリの可能性。
 約3000字の漢字とその部首をハッシュとした「converter/static/jsons/kanji_radicals.json」はあなたのアプリに役に立つファイルかもしれません。ただし間違えなどがあるかも知れないのでこ了承ください。
@@ -27,9 +27,9 @@ Requirements for running this repository as an application:
 This repository uses the font jia-ming-han-zi-nojia-ming-mini-saizu.ttf, but due to licensing restrictions, redistribution is not allowed. Please download the font from the following URL and place it in the converter/static/fonts folder.
 https://fontstruct.com/fontstructions/show/2442607/jia-ming-han-zi-nojia-ming-mini-saizu
 
-Additionally, please download the NotoSansJP-Regular.otf font from the following URL and place it in the converter/static/fonts folder.
-https://fonts.google.com/specimen/Noto+Sans+JP
-The license for NotoSansJP-Regular.otf is the SIL Open Font License 1.1, which allows broad usage, including commercial use.
+Additionally, please download the KleeOne-SemiBold.ttf font from the following URL and place it in the converter/static/fonts folder.
+https://fonts.google.com/specimen/Klee+One?subset=japanese&script=Hira
+The license for KleeOne-SemiBold.ttf is the SIL Open Font License 1.1, which allows broad usage, including commercial use.
 Possibilities of this repository:
 
 The file converter/static/jsons/kanji_radicals.json contains around 3000 kanji characters and their radicals hashed. It might be useful for your application, but please note that there could be errors.
