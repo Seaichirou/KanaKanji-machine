@@ -1,15 +1,14 @@
 # KanaKanji-machine
 「仮名漢字」という漢字の代替え文字に変換するアプリケーションです。
-WEBアプリとしては下記サイトで公開しています。
+WEBアプリとしては下記サイトで公開しています。  
 https://kanakanji-machine-3cd804a8be3e.herokuapp.com/
 
 ## このリポジトリをアプリとして動作させるのに必要な事。
 「jia-ming-han-zi-nojia-ming-mini-saizu.ttf」と言うフォントを使っていますが、規約により二次配布できません。下記URLのサイトからダウンロードして「converter/static/fonts」フォルダの中に入れて下さい。  
 https://fontstruct.com/fontstructions/show/2442607/jia-ming-han-zi-nojia-ming-mini-saizu  
 
-また、「KleeOne-SemiBold.ttf」というフォントも下記URLからダウンロードし、converter/static/fonts」フォルダの中に入れて下さい。  　　
-https://fonts.google.com/specimen/Klee+One?subset=japanese&script=Hira    
-
+また、「KleeOne-SemiBold.ttf」というフォントも下記URLからダウンロードし、converter/static/fonts」フォルダの中に入れて下さい。  
+https://fonts.google.com/specimen/Klee+One?subset=japanese&script=Hira  
 「KleeOne-SemiBold.ttf」のライセンスはSIL Open Font License 1.1に基づいており、商用利用を含む幅広い用途で使用可能です。  
 
 ## このリポジトリの可能性。
