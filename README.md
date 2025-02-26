@@ -12,7 +12,7 @@ https://fonts.google.com/specimen/Klee+One?subset=japanese&script=Hira
 「KleeOne-SemiBold.ttf」のライセンスはSIL Open Font License 1.1に基づいており、商用利用を含む幅広い用途で使用可能です。  
 
 ## このリポジトリの可能性。
-約6000字の漢字とその部首をハッシュとした「converter/static/jsons/kanji_radicals.json」はあなたのアプリに役に立つファイルかもしれません。ただし間違えなどがあるかも知れないのでご了承ください。
+約10000字の漢字とその部首をハッシュとした「converter/static/jsons/kanji_radicals.json」はあなたのアプリに役に立つファイルかもしれません。ただし間違えなどがあるかも知れないのでご了承ください。
 
 例えば文字制限をなくしてもっと長い文書を仮名漢字に変換させる事もできます。
 また、他のフォントを設定したりレイアウトを整えたりして、様々なアイデアを試したりもできます。
@@ -32,7 +32,7 @@ https://fonts.google.com/specimen/Klee+One?subset=japanese&script=Hira
 The license for KleeOne-SemiBold.ttf is the SIL Open Font License 1.1, which allows broad usage, including commercial use.
 Possibilities of this repository:
 
-The file converter/static/jsons/kanji_radicals.json contains around 6000 kanji characters and their radicals hashed. It might be useful for your application, but please note that there could be errors.
+The file converter/static/jsons/kanji_radicals.json contains around 10000 kanji characters and their radicals hashed. It might be useful for your application, but please note that there could be errors.
 
 For example, you could remove the character limit to convert longer texts into 仮名漢字.
 You can also experiment with different fonts or adjust the layout to test various ideas.
