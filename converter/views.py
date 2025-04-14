@@ -8,7 +8,7 @@ from django.core.cache import cache
 from .forms import KanaKanjiForm
 from django.utils import timezone
 
-KANA_KANJI_PATTERN = re.compile(r'([一-龠々ヶ]{1,2})([ｦ-ﾟヰヱヽヾ･]+)')
+KANA_KANJI_PATTERN = re.compile(r'([一-龠々]{1,2})([ｦ-ﾟヰヱヽヾ･]+)')
 
 def load_kanji_radicals(json_path):
     with open(json_path, 'r', encoding='utf-8') as f:

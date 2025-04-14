@@ -8,7 +8,7 @@ function updateCharCount() {
     let currentLength = input.value.length;
 
     // 正規表現でマッチした部分を取得
-    const kanaKanjiPattern = /([一-龠々ヶ]{1,2})([ｦ-ﾟヰヱヽヾ･]+)/g;
+    const kanaKanjiPattern = /([一-龠々]{1,2})([ｦ-ﾟヰヱヽヾ･]+)/g;
     const matches = input.value.matchAll(kanaKanjiPattern);
 
     // 半角カタカナの「･」の数をカウントする
